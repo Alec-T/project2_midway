@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+
+body {
+	overflow: hidden;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #7d110c;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main {
+	margin-left: 100px;
+}
+
+.sidenav img {
+	padding: 6px 0px 6px 0px;
+	width: 100px;
+	display: block;
+}
+
+#dashboard {
+	background-image: url('Images/testDashboard.png');
+}
+
+#dashboard:hover {
+	background-image: url('Images/dashboardWhite');
+}
+
+.university:hover {
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+}
+
+.classPage {
+	position: absolute;
+	left: 40%;
+	top: 30%;
+}
+/*
+.animationContainer {
+	width: 1500px;
+	position: relative;
+}
+
+#reddit {
+	position: absolute;
+	left: 0px;
+}
+
+#reddit2 {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+}
+
+#reddit3 {
+	position: absolute;
+	left: 0px;
+	top: 200px;
+}
+*/
+
+.x {
+	animation: x 12s linear infinite alternate;
+	position: absolute;
+}
+
+.y {
+	animation: y 6s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y {
+	100% {
+		transform: translateY( calc(100vh - 100px));
+	}
+}
+
+.x2 {
+	animation: x2 6s linear infinite alternate;
+	position: absolute;
+}
+
+.y2 {
+	animation: y2 2s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x2 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y2 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x3 {
+	animation: x3 2s linear infinite alternate;
+	position: absolute;
+}
+
+.y3 {
+	animation: y3 10s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x3 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y3 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x4 {
+	animation: x4 10s linear infinite alternate;
+	position: absolute;
+}
+
+.y4 {
+	animation: y4 3s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x4 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y4 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x5 {
+	animation: x5 2s linear infinite alternate;
+	position: absolute;
+}
+
+.y5 {
+	animation: y5 3s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x5 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y5 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x6 {
+	animation: x6 3s linear infinite alternate;
+	position: absolute;
+}
+
+.y6 {
+	animation: y6 0.8s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x6 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y6 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x7 {
+	animation: x7 1.8s linear infinite alternate;
+	position: absolute;
+}
+
+.y7 {
+	animation: y7 5s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x7 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y7 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x8 {
+	animation: x8 4s linear infinite alternate;
+	position: absolute;
+}
+
+.y8 {
+	animation: y8 9s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x8 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y8 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x9 {
+	animation: x9 15s linear infinite alternate;
+	position: absolute;
+}
+
+.y9 {
+	animation: y9 1.1s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x9 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y9 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}
+
+.x10 {
+	animation: x10 4s linear infinite alternate;
+	position: absolute;
+}
+
+.y10 {
+	animation: y10 2s linear infinite alternate;
+	position: absolute;
+}
+
+@keyframes x10 {
+	100% {
+		transform: translateX(calc(100vw - 100px));
+	}
+}
+
+@keyframes y10 {
+	100% {
+		transform: translateY(calc(100vh - 100px));
+	}
+}

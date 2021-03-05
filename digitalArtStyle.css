@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+	overflow: hidden;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #7d110c;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.main {
+	margin-left: 100px;
+}
+
+.sidenav img {
+	padding: 6px 0px 6px 0px;
+	width: 100px;
+	display: block;
+}
+
+#dashboard {
+	background-image: url('Images/testDashboard.png');
+}
+
+#dashboard:hover {
+	background-image: url('Images/dashboardWhite');
+}
+
+.university:hover {
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+}
+
+#turnIn {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+}
